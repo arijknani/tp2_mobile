@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemperatureActivity">
+
+    <TextView
+        android:id="@+id/mytv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="116dp"
+        android:text="@string/mytv1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/myedt"
+        android:hint="@string/myedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytv1" />
+
+    <CheckBox
+        android:id="@+id/arrondir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/arrondir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myedt" />
+
+    <RadioGroup
+        android:id="@+id/myrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="396dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/sens1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sens1" />
+
+        <RadioButton
+            android:id="@+id/sens2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sens1" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/mytv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="333dp"
+        android:text="@string/mytv2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myedt" />
+
+    <TextView
+        android:id="@+id/restv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="74dp"
+        android:text="@string/restv"
+        app:layout_constraintStart_toEndOf="@+id/mytv2"
+        app:layout_constraintTop_toBottomOf="@+id/myrg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

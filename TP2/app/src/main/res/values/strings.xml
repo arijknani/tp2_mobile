@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TP2_arij_knani</string>
+    <string name="edit_text">Donner un montant </string>
+    <string name="btn_dinar">Dinar tunisien --> Euro</string>
+    <string name="btn_euro">Euro --> Dinar tunisien</string>
+    <string name="res">Résultat de conversion</string>
+
+    <string name="tv_montant">montant</string>
+    <string name="tv_sens">sens</string>
+    <string name="btn_res">Resultat</string>
+
+
+    <string name="mytv1">Conversion de Température</string>
+    <string name="myedt">valeur</string>
+    <string name="arrondir">Arrondir</string>
+    <string name="sens1">Celsius--> Fahrenheit</string>
+    <string name="sens2">Fahrenheit--> Celsius</string>
+    <string name="mytv2">Resultat</string>
+    <string name="restv">0.0</string>
+
+    <string name="monnaie">Monnaie</string>
+    <string name="temperature">Température</string>
+
+
+</resources>
